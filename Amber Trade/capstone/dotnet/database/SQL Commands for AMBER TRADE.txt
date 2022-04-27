@@ -1,0 +1,25 @@
+SELECT FIRST_NAME, LAST_NAME
+FROM accounts
+WHERE user_id = XXXXX
+
+select username 
+from users
+where user_id = XXXXX
+
+select stock
+from holdings
+where user_id = xxxx and game_id = XXXX
+
+select balance
+from holdings
+where user_id = xxxx and game_id = XXXX
+
+
+INSERT INTO users (user_id, username, password_hash, salt, user_role)
+VALUES (xxx, xxx, xxx, xxx, 1);
+
+
+
+
+
+
